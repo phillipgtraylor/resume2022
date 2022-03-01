@@ -1,0 +1,67 @@
+.navcss {
+	width: 960px;
+	height: 80px;
+	border-bottom: 5px;
+	border-color: #cccccc;
+	border-style: solid;
+}
+.headcss {
+	font-family: 'Georgia', Times, serif;
+	float:left;
+	font-size: 30px;
+	background-color: #4aaaa5;
+	margin-left: 50px;
+	padding: 15px;
+	color: white;
+	margin-top: 2px;
+}
+.container {
+	background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+	max-width: 960px;
+	padding-top: 50px;
+	border-style: solid;
+	border-bottom: 10px;
+	border-color: #ffffff;
+	height: 1500px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.col-m-3 {
+	position: right, 100px;
+	}
+.bgwhite {
+	background-color: white;
+}
+.pad-left  {
+	margin-left: 20px;
+}
+.pad-right {
+	margin-right: 20px;
+}
+h2 {
+	font-family: 'Georgia', Times, serif;
+	font-size: 25px;
+	color: #4aaaaf;
+	}
+.footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #eee;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 960px;
+	height: 50px;
+	padding-top: 25px;
+	background-color: #666666;
+	border-top: 5px;
+	border-style: solid;
+	border-color: #4aaaaf;
+	left: 0;
+}
+.form {
+	background-color: #ffffff;
+	padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
