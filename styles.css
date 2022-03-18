@@ -75,6 +75,8 @@
 }
 .border-black {
 	border-style: solid;
+	border: thick;
+	border: double;
 	border-color: #000000;
 }
 .border {
@@ -100,7 +102,7 @@
 }
 .column33 {
 	float: left;
-	width: 33%;
+	width: 33.33%;
 	padding: 10px;
 }
   
@@ -117,3 +119,13 @@
 	  width: 100%;
 	}
 }
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+  .button-black {
+	  background-color: #000000;
+	  
+  }
