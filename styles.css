@@ -25,23 +25,32 @@
 .bg-white {
 	background-color: white;
 }
-.pad-top-head{
+.pad-top-head {
 	margin-top: 8px;
 }
-.pad-top-small{
+.pad-top-small {
 	margin-top: 10px;
 }
-.pad-top{
+.pad-top {
 	margin-top: 15px;
+}
+.pad-top-far {
+	margin-top: 15%;
 }
 .pad-bottom{
 	margin-bottom: 15px;
 }
 .pad-left {
-	margin-left: 20px;
+	margin-left: 20px;	
+}
+.pad-left-far {
+	margin-left: 25%;
 }
 .pad-right {
 	margin-right: 20px;
+}
+.pad-right-far {
+	margin-right: 25%;
 }
 .h2 {
 	font-family: 'Georgia', Times, serif;
@@ -125,7 +134,12 @@
 	margin-right: auto;
 	width: 50%;
   }
-  .button-black {
+.carousel-align-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.button-black {
 	  background-color: #000000;
-	  
-  }
+}
