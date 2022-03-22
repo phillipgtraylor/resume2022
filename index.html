@@ -8,17 +8,20 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="assets/images">
   <style>
   </style>
 </head>
 
-<body class="body1">
+<body class="body-arial">
   <nav class="navcss">
-    <div class="container-fluid">
+    <div class="container-fluid" style="position: relative;">
       <!-- Brand and toggle get grouped for better mobile display -->
 
       <p class="headcss pad-top-head">Phillip Traylor</p>
-
+      <div style="position: absolute;">
+        <p class="headcss-small pad-top-header-email">phillip@traylor.co</p>
+      </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
     </div>
   </nav>
@@ -27,23 +30,74 @@
     <div class="bg-white border-black">
       <div class="row pad-left pad-right pad-top-small">
 
+        <div class="column33 text-center shadow" id="digital-clock"> </div>
+        <script src="script.js"> </script>
+
         <div class="column33 text-center shadow">
-          <img class="img pad-top img-fluid" src="https://stylus-lang.com/img/octocat.svg" width=100%
+          <img class="img pad-top img-fluid" src="/assets/images/pgtlogo.png" style="height:180px;"
             alt="Image not found">
         </div>
 
         <div class="column33 text-center shadow">
-          <img class="img pad-top img-fluid" src="https://stylus-lang.com/img/octocat.svg" width=100%
-            alt="Image not found">
+          <div style="position: relative;">
+            <a href="https://github.com/phillipgtraylor" target="_blank" rel="noopener noreferrer">
+              <img class="img pad-top img-fluid" src="https://stylus-lang.com/img/octocat.svg" style="height:180px;"
+                alt="Image not found">
+            </a>
+            <div class="centered">
+              <a href="https://github.com/phillipgtraylor" target="_blank" rel="noopener noreferrer">
+                <p class="pad-top-bottom-logo">Github Link</p>
+              </a>
+            </div>
+          </div>
         </div>
+        <!-- commenting out carousel as i did not like the final design, may come back to it at a later date. -->
+        <!-- 
+         Carousel 
+        <div id="demo" class="carousel slide pad-top  {
+      " data-bs-ride="carousel">
 
-        <div class="column33 text-center shadow">
-          <a href="https://github.com/phillipgtraylor" target="_blank" rel="noopener noreferrer">
-            <img class="img pad-top img-fluid" src="https://stylus-lang.com/img/octocat.svg" alt="Image not found">
-          </a>
+           Indicators/dots
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+
+           The slideshow/carousel 
+          <div class="carousel-inner bg-white center">
+            <div class="carousel-item active ">
+              <img src="assets/images/pgtlogo.png" alt="image not found..." class="d-block"
+                style="width:200px; height:200px; margin:auto;">
+            </div>
+            <div class="carousel-item img-fluid">
+              <a href="https://github.com/phillipgtraylor" target="_blank" rel="noopener noreferrer">
+                <img class="img img-fluid" src="assets/images/GitHub_Logo.png" alt="Image not found"
+                  alt="image not found..." class="d-block" style="width:flex; height:200px;">
+              </a>
+            </div>
+            <div class="carousel-item img-fluid">
+              <a href="https://github.com/phillipgtraylor" target="_blank" rel="noopener noreferrer">
+                <img class="img img-fluid" src="assets/images/LI-Logo.png" alt="Image not found"
+                  alt="image not found..." class="d-block" style="width:flex; height:200px;">
+              </a>
+            </div>
+          </div>
+
+           Left and right controls/icons 
+          <button class="carousel-control-prev pad-left-far pad-top-far" type="button" data-bs-target="#demo"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon button-black"></span>
+          </button>
+          <button class="carousel-control-next pad-right-far pad-top-far" type="button" data-bs-target="#demo"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon button-black"></span>
+          </button>
         </div>
+      -->
 
-        <h2 class="text-center pad-top">About Me</h2>
+
+        <h2 class="text-center pad-top text-uppercase">About Me</h2>
         <p class="text-center pad-left pad-right">Motivated and dependable Business Professional with 7+ years of
           Data Analysis
           and
@@ -53,43 +107,6 @@
         </p>
       </div>
     </div>
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide pad-top carousel-align-center {
-      " data-bs-ride="carousel">
-
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-      </div>
-
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner bg-white center">
-        <div class="carousel-item active img-fluid">
-          <img src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png"
-            alt="image not found..." class="d-block" style="width:100%; height:200px; margin:auto;">
-        </div>
-        <div class="carousel-item img-fluid">
-          <img src="https://www.mrw.it/img/cope/0iwkf4_1609360688.jpg" alt="image not found..." class="d-block"
-            style="width:100%; height:200px;">
-        </div>
-        <div class="carousel-item img-fluid">
-          <img src="https://designshack.net/wp-content/uploads/placehold.jpg" alt="image not found..." class="d-block"
-            style="width:100%; height:200px;">
-        </div>
-      </div>
-
-      <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev pad-left-far pad-top-far" type="button" data-bs-target="#demo"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon button-black"></span>
-      </button>
-      <button class="carousel-control-next pad-right-far pad-top-far" type="button" data-bs-target="#demo"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon button-black"></span>
-      </button>
-    </div>
 
 
     <div class="container-fluid">
@@ -98,9 +115,9 @@
       <div class="row">
         <!-- column 1 professional experience -->
         <div class="column pad-top shadow">
-          <p class="h5 row pad-left pad-right">Operations Manager & Customer Experience Manager</p>
-          <p class="pad-left pad-right">Stinson Distilling, Driftwood TX - September 2015 to August 2020</p>
-          <p class="pad-left pad-right">• Managment of both virtual and physical accounting systems for
+          <p class="h5 row pad-left pad-right text-center">Operations Manager & Customer Experience Manager</p>
+          <p class="pad-left pad-right text-center">Stinson Distilling, Driftwood TX - July 2015 to August 2020</p>
+          <p class="pad-left pad-right">• Management of both virtual and physical accounting systems for
             warehouse
             containing 9+ commercial spirits by
             organizing different processes and gestation periods</p>
@@ -112,13 +129,12 @@
             outstanding spirit quality in 4 different
             categories
           </p>
-          <p class="pad-left pad-right">• · Earned 5-star rating for excellent customer service by scheduling
-            tours, preparing handcrafted cocktails,
-            and managing clean and safe facilities
+          <p class="pad-left pad-right">• Earned 5-star rating for excellent customer service by consistently ensuring
+            that an effective, polite, and safe environment was presented
           </p>
-          <p class="h5 pad-left pad-right">Contract Business Advisor/Distiller
+          <p class="h5 pad-left pad-right text-center">Contract Business Advisor/Distiller
             Stinson Distilling</p>
-          <p class="pad-left pad-right">Stinson Distilling, Driftwood TX - April 2021 to January 2022</p>
+          <p class="pad-left pad-right text-center">Stinson Distilling, Driftwood TX - April 2021 to January 2022</p>
           <p class="pad-left pad-right">• Monitoring of wine and spirit inventory for defects and quality
             assurance during the aging period</p>
           <p class="pad-left pad-right">• Analysis of current best practice methods and suggesting valuable
@@ -133,8 +149,8 @@
         </div>
         <!-- column 2 professional experience -->
         <div class="column pad-top shadow">
-          <p class="h5 pad-left pad-right">Problem-Solve Team Member</p>
-          <p class="pad-left pad-right float-right">Amazon, Tulsa OK - September 2020 to March 2021
+          <p class="h5 pad-left pad-right text-center">Problem-Solve Team Member</p>
+          <p class="pad-left pad-right float-right text-center">Amazon, Tulsa OK - September 2020 to March 2021
           </p>
           <p class="pad-left pad-right float-right">• Measured and analyzed real-time data to predict and prevent
             problems, and provide recommendations
@@ -144,11 +160,12 @@
             fixing orders</p>
           <p class="pad-left pad-right">• Corrected failed orders and audited product walls using specialized
             auditing software and physical
-            Pprocesses</p>
+            processes</p>
           <p class="pad-left pad-right">• Reintroduced and deleted orders using Amazon software to ensure timely
             deliverance of goods</p>
-          <p class="h5 pad-left pad-right">Sales Team Member</p>
-          <p class="pad-left pad-right float-right">The Billiard Factory, Beecave TX - June 2017 to August 2018
+          <p class="h5 pad-left pad-right text-center">Sales Team Member</p>
+          <p class="pad-left pad-right float-right text-center">The Billiard Factory, Beecave TX - June 2017 to August
+            2018
           <p class="pad-left pad-right float-right">• Communicated directly with 20+ customers daily to relay
             detailed information about products and services</p>
           <p class="pad-left pad-right">• Assembled and delivered products in accordance to the highest standard
@@ -251,19 +268,23 @@
     </div>
     <!-- footer ... -->
     <div class="row">
-      <div class="footer col-md-12">
-        <p class="center-text pad-top-small">© 2022</p>
+
+      <div class="footer">
+        <div class="footer-img-logo pad-top-small" style="position: relative;">
+          <div class="centered pad-top-bottom-logo" style="font-size: 10px;">© 2022</div>
+          <img src="assets/images/pgtlogo.png" text="test" alt="image not found..."
+            style="height: 70px; border: solid; border-color: black;">
+        </div>
       </div>
+
+
     </div>
-
-
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
