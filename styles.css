@@ -18,6 +18,9 @@
 	border: #7ae63b;
 	border-style: double;
 }
+.rounded {
+	border-radius: 50%;
+}
 .headcss-small {
 	font-family: 'Georgia', Times, serif;
 	float:left;
@@ -169,6 +172,9 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+  .font-family-times {
+	  font-family: Times;
+  }
 .body-arial {
     font: 16px Arial, sans-serif;
 }
@@ -177,7 +183,7 @@
 	background-color: #ffffff;
 	margin: auto;
 	padding-top: 100.5px;
-	font-size: 25px;
+	font-size: 30px;
 	text-align: center;
 	height: 215px;
 }
